@@ -415,7 +415,7 @@ textarea:focus {
     flex-direction: column;
   }
   .form-container form button{
-    transform: scale(0.85);
+    width: 100%;
   }
 }
 
