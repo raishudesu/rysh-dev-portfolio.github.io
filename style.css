@@ -414,6 +414,9 @@ textarea:focus {
   .contact-options {
     flex-direction: column;
   }
+  .form-container form button{
+    transform: scale(0.85);
+  }
 }
 
 @media (max-width: 593px) {
