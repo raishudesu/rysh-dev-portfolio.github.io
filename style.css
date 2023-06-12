@@ -372,6 +372,9 @@ textarea:focus {
 }
 
 @media (max-width: 768px) {
+  .about-section{
+    height: max-content;
+}
   .about-main-container {
     padding: 20px;
     display: flex;
