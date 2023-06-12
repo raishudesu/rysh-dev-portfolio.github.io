@@ -289,7 +289,7 @@ textarea {
 }
 
 .form-container form button {
-  width: 25%;
+  width: 100%;
   border: none;
   padding: 10px;
   background: #fd5c63;
@@ -414,9 +414,7 @@ textarea:focus {
   .contact-options {
     flex-direction: column;
   }
-  .form-container form button{
-    width: 100%;
-  }
+
 }
 
 @media (max-width: 593px) {
