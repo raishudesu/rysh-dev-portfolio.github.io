@@ -348,8 +348,21 @@ textarea:focus {
 }
 .back-to-top-cont{
   display: flex;
+  flex-direction: column;
   width: 100%;
   justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  transition: 0.2s;
+}
+.back-to-top-cont:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.back-to-top-cont a{
+  text-decoration: none;
+  color: #242526;
 }
 
 @media (max-width: 1350px) {
