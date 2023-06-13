@@ -441,9 +441,6 @@ textarea:focus {
   .contact-options {
     flex-direction: column;
   }
-  .back-to-top-cont{
-
-  }
   .back-to-top-cont a{
     font-size: small;
   }
