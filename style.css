@@ -346,6 +346,11 @@ textarea:focus {
   align-items: center;
   justify-items: center;
 }
+.back-to-top-cont{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
 
 @media (max-width: 1350px) {
   .header-container-1 {
@@ -408,7 +413,7 @@ textarea:focus {
     justify-content: center;
   }
   .project-1 img {
-    width: 300px;
+    width: 100%;
   }
   .project-1-right {
     margin-top: 20px;
