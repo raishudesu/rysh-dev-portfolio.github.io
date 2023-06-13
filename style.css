@@ -212,10 +212,13 @@ p {
 }
 .project-1-link {
   margin-top: 100px;
+  display: flex;
+  justify-content: first baseline;
 }
 .project-1-link a {
-  margin-right: 50px;
+  margin-right: 10px;
   text-decoration: none;
+  color: #242526;
 }
 .contact-section {
   width: 100%;
@@ -386,6 +389,7 @@ textarea:focus {
   }
   .about-right {
     width: 100%;
+    text-align: center;
   }
   .projects-container {
     padding: 20px;
@@ -396,12 +400,17 @@ textarea:focus {
     align-items: center;
     justify-items: center;
   }
+  .project-1-link{
+    margin-top: 20px;
+    justify-content: center;
+  }
   .project-1 img {
     width: 300px;
   }
   .project-1-right {
     margin-top: 20px;
     width: 100%;
+    text-align: center;
   }
   .contact-section {
     padding: 20px;
