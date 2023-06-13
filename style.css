@@ -394,6 +394,9 @@ textarea:focus {
   .projects-container {
     padding: 20px;
   }
+  .projects-heading{
+    text-align: center;
+  }
   .project-1 {
     justify-content: center;
     align-content: center;
