@@ -356,10 +356,7 @@ textarea:focus {
   align-items: center;
   transition: 0.2s;
 }
-.back-to-top-cont:hover{
-  transform: scale(1.1);
-  transition: 0.2s;
-}
+
 .back-to-top-cont a{
   text-decoration: none;
   color: #242526;
@@ -444,7 +441,12 @@ textarea:focus {
   .contact-options {
     flex-direction: column;
   }
+  .back-to-top-cont{
 
+  }
+  .back-to-top-cont a{
+    font-size: small;
+  }
 }
 
 @media (max-width: 593px) {
