@@ -451,7 +451,7 @@ textarea:focus {
     align-content: center;
     justify-items: center;
     align-items: center;
-    backdrop-filter: blur(20px);
+    background-color: white;
     left: 100%;
     transition: left 0.3s ease-in-out;
   }
